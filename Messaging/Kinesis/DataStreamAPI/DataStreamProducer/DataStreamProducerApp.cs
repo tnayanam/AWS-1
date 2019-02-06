@@ -16,7 +16,7 @@ namespace Amazon.Kinesis.DataStreamproducer
 
 
         private static readonly AmazonKinesisClient kinesisClient = 
-            new AmazonKinesisClient(RegionEndpoint.EUWest2);
+            new AmazonKinesisClient("AKIAIGHO2EHPU7ULBOFA", "ALF+tQBFASTxweqlqDIeEK/fhhxDKupPTN2Oubvl", RegionEndpoint.USEast1);
         const string myStreamName = "myTestStream";
 
         public static void Main(string[] args)
